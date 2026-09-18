@@ -1,0 +1,9 @@
+{
+    "name": "S20_5_80",
+    "locations": 20,
+    "mode": "select",
+    "count": 80,
+    "selection": 5,
+    "repo_count": 100,
+    "seed": 1
+}

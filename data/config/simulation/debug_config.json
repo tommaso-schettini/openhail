@@ -1,0 +1,12 @@
+{
+    "decision_clock": -1,
+	"max_outstanding_requests": 1,
+	"clear_requests": true,
+	"max_interdecision_time": -1,
+	"end_of_service_epoch": true, 
+	"end_of_charge_epoch": false,
+	"strict_validation": false,
+	"track_vehicles": false,
+	"track_requests": false,
+	"track_epochs": false
+}

@@ -1,0 +1,8 @@
+{
+    "name": "F2101",
+    "Q": 20,
+    "charge_rate": 0.005,
+    "discharge_rate": 0.3,
+    "speed": 0.0036,
+    "num_vehicles": 2101
+}

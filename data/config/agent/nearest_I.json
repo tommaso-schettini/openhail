@@ -1,0 +1,5 @@
+{
+	"name": "nearest_I",
+	"immediate_reposition": true,
+	"soc_threshold": 0.2
+}

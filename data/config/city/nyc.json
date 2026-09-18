@@ -1,0 +1,11 @@
+{
+	"name": "nyc",
+    "geojson_file": "./data/nyc/nyc_taxizone_geodata_utkm.geojson",
+    "parking_file": "./data/nyc/nyc_parking.json",
+    "request_file": "./data/nyc/nyc_sample_05.csv",
+    "max_wait": 400,
+    "charge_cost": 0.0,
+    "travel_cost": 0.53,
+    "fixed_reward": 10.75,
+    "variable_reward_distance": 4.02
+}

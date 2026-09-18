@@ -1,0 +1,6 @@
+{
+    "name": "periodic_ppo",
+    "training": false,
+    "sample_actions": true,
+    "device": "cpu"
+}

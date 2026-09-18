@@ -1,0 +1,14 @@
+{
+	"name": "chicago",
+    "geojson_file": "./data/chicago/chicago_zones.zip",
+    "parking_file": "./data/chicago/chicago_parking.json",
+    "request_file": "./data/chicago/chicago_sample",
+    "max_wait": 400,
+    "charge_cost": 0.0,
+    "travel_cost": 0.53,
+    "fixed_reward": 10.75,
+    "variable_reward_distance": 4.02,
+    "meters_per_unit": 1000.00,
+    "key_zone_id": "area_num_1",
+    "grs": "EPSG:26971"
+}

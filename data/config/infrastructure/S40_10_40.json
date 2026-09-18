@@ -1,0 +1,9 @@
+{
+    "name": "S40_10_40",
+    "locations": 40,
+    "mode": "select",
+    "count": 40,
+    "selection": 10,
+    "repo_count": 100,
+    "seed": 1
+}

@@ -1,0 +1,9 @@
+{
+    "name": "S05_1_400",
+    "locations": 5,
+    "mode": "select",
+    "count": 400,
+    "selection": 1,
+    "repo_count": 100,
+    "seed": 1
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "path": "checkpoints/fleet_1000_S05_1_200/checkpoint_best.pt",
+    "sha256": "c26f89715f94552e9e98b80c116aa02fe42beffa6501319834163e52bb95f831",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S05_1_200_s321_1455644_9/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_1000",
+    "infrastructure": "S05_1_200",
+    "horizon": "horizon_1_20k"
+  },
+  {
+    "path": "checkpoints/fleet_1000_S10_2_100/checkpoint_best.pt",
+    "sha256": "f09a3206344c7281014381de97325a0a7d92f09aaddb095485d6306a0989cdd1",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S10_2_100_s321_1455644_10/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_1000",
+    "infrastructure": "S10_2_100",
+    "horizon": "horizon_1_20k"
+  },
+  {
+    "path": "checkpoints/fleet_1000_S20_5_40/checkpoint_best.pt",
+    "sha256": "4491dbb175828e7299ed655301c4dd8c13d960c0011df44cbb9dc06228074a08",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S20_5_40_s321_1455644_11/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_1000",
+    "infrastructure": "S20_5_40",
+    "horizon": "horizon_1_20k"
+  },
+  {
+    "path": "checkpoints/fleet_1000_S40_10_20/checkpoint_best.pt",
+    "sha256": "78900ba0392ad92c63e4ec4bc2f907bdb6095bb8a197d443c5428298683a21ec",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S40_10_20_s321_1455644_12/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_1000",
+    "infrastructure": "S40_10_20",
+    "horizon": "horizon_1_20k"
+  },
+  {
+    "path": "checkpoints/fleet_100_S05_1_20/checkpoint_best.pt",
+    "sha256": "0a7adf75d2bff52745a9df672285be6a6c164b83100406d5aaa6fd24c49df2ca",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S05_1_20_s321_1455644_1/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_100",
+    "infrastructure": "S05_1_20",
+    "horizon": "horizon_1_2k"
+  },
+  {
+    "path": "checkpoints/fleet_100_S10_2_10/checkpoint_best.pt",
+    "sha256": "9064dabd65faf645e5c53e6718d701461c0a30d656f067bb8738fcd4421b84fb",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S10_2_10_s321_1455644_2/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_100",
+    "infrastructure": "S10_2_10",
+    "horizon": "horizon_1_2k"
+  },
+  {
+    "path": "checkpoints/fleet_100_S20_5_4/checkpoint_best.pt",
+    "sha256": "783746c323a0242532b9a1e58869a7a3fc0ebb6cad0b485ca7f313fcceac1bab",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S20_5_4_s321_1455644_3/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_100",
+    "infrastructure": "S20_5_4",
+    "horizon": "horizon_1_2k"
+  },
+  {
+    "path": "checkpoints/fleet_100_S40_10_2/checkpoint_best.pt",
+    "sha256": "67baba2756ecd14fba18ee09dbb4711dce4d9a33c86756882cac3039a807cee8",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S40_10_2_s321_1455644_4/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_100",
+    "infrastructure": "S40_10_2",
+    "horizon": "horizon_1_2k"
+  },
+  {
+    "path": "checkpoints/fleet_2000_S05_1_400/checkpoint_best.pt",
+    "sha256": "5eba84edefa19bb03c25cbabecec04c5457de8fd62ef0d4f35709b446b0e0286",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S05_1_400_s321_1455644_13/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_2000",
+    "infrastructure": "S05_1_400",
+    "horizon": "horizon_1_40k"
+  },
+  {
+    "path": "checkpoints/fleet_2000_S10_2_200/checkpoint_best.pt",
+    "sha256": "232315e1976893427fbc46ef744934c90f49ec6331704e4309a5599ed903cbb4",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S10_2_200_s321_1455644_14/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_2000",
+    "infrastructure": "S10_2_200",
+    "horizon": "horizon_1_40k"
+  },
+  {
+    "path": "checkpoints/fleet_2000_S20_5_80/checkpoint_best.pt",
+    "sha256": "90dc0910336b2e376079621151d5cd2f44a9f9d47ab62cc3066204ba227c581f",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S20_5_80_s321_1455644_15/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_2000",
+    "infrastructure": "S20_5_80",
+    "horizon": "horizon_1_40k"
+  },
+  {
+    "path": "checkpoints/fleet_2000_S40_10_40/checkpoint_best.pt",
+    "sha256": "2c88be0862c9bb954cfda35d3444431ff8d90bcdd649531f42c39e74cd09433c",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S40_10_40_s321_1455644_16/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_2000",
+    "infrastructure": "S40_10_40",
+    "horizon": "horizon_1_40k"
+  },
+  {
+    "path": "checkpoints/fleet_500_S05_1_100/checkpoint_best.pt",
+    "sha256": "b4e905ebdb6cc1c21b29468f385e029cfbe9a414e01e996732993251d3237824",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S05_1_100_s321_1455644_5/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_500",
+    "infrastructure": "S05_1_100",
+    "horizon": "horizon_1_10k"
+  },
+  {
+    "path": "checkpoints/fleet_500_S10_2_50/checkpoint_best.pt",
+    "sha256": "7505b4c564d8d78e5c62eee6f4194103319e35b3467c0a04f728aec1484ea786",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S10_2_50_s321_1455644_6/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_500",
+    "infrastructure": "S10_2_50",
+    "horizon": "horizon_1_10k"
+  },
+  {
+    "path": "checkpoints/fleet_500_S20_5_20/checkpoint_best.pt",
+    "sha256": "68ca5926c473a59c65c02b3288ae4363dd019819d3548d7d376e7d8b377b2300",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S20_5_20_s321_1455644_7/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_500",
+    "infrastructure": "S20_5_20",
+    "horizon": "horizon_1_10k"
+  },
+  {
+    "path": "checkpoints/fleet_500_S40_10_10/checkpoint_best.pt",
+    "sha256": "6a7af7ac562ce9add581ffbd389a51c19cb63cfb3ccb6fc81bde4502970d831b",
+    "source_path": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S40_10_10_s321_1455644_8/checkpoint_best.pt",
+    "training_revision": "d532ad10ac84fbf3d442e4316fb9e09ddfaa71b7",
+    "fleet": "fleet_500",
+    "infrastructure": "S40_10_10",
+    "horizon": "horizon_1_10k"
+  }
+]

@@ -1,0 +1,10 @@
+city	simulation	infrastructure	python_module	num_episodes	seed	learning_rate	decision_clock	update_epochs	minibatch_decisions	eval_interval	eval_episodes	eval_first_seed	eval_first_policy_seed	greedy_eval	save_interval	device	output_dir
+nyc	debug_config_fast	S05_1_1	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_1_2	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_1_4	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_1_6	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_2_1	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_2_2	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_2_3	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_2_4	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training
+nyc	debug_config_fast	S05_3_2	python/3.13	500	321	0.0003	900	4	32	10	20	100000	200000	0	0	cpu	out/periodic_ppo_training

@@ -1,0 +1,9 @@
+{
+    "include": ["src", "scripts", "tests"],
+    "exclude": [".venv", "out", "data/nyc"],
+    "pythonVersion": "3.10",
+    "venvPath": ".",
+    "venv": ".venv",
+    "typeCheckingMode": "basic",
+    "reportMissingTypeStubs": "none"
+}

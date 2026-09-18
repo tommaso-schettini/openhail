@@ -1,0 +1,1076 @@
+{
+  "started": "2026-09-09T15:14:39.075101+00:00",
+  "cpu": "AMD EPYC 7532 32-Core Processor",
+  "platform": "Linux-5.14.0-687.42.1.el9_8.x86_64-x86_64-AMD_EPYC_7532_32-Core_Processor-with-glibc2.37",
+  "python": "3.13.2 (main, Feb  5 2025, 15:09:29) [GCC 13.3.0]",
+  "numpy": "2.4.2",
+  "torch": "2.13.0",
+  "torch_threads": 1,
+  "torch_interop_threads": 1,
+  "git_head": "bb93bc0f656a259a286f0c43b4b2f1d5ee1d3dac",
+  "hostname": "nl11101",
+  "slurm_job_id": "2730959",
+  "cpu_affinity": [
+    25
+  ],
+  "source_sha256": {
+    "src/openhail/agents/__init__.py": "54ebdc631fa2fd688df4a435bb451b5906daf062ce2897a10ae4a4785c47a3f7",
+    "src/openhail/agents/agent.py": "dcab7a8c88abbd6d935220eb3839f271ef5ee5511f062ff9a027974248634f95",
+    "src/openhail/agents/agent_initializer.py": "bce879f633243a03b91b5eb8594d2450c2f63707050287aeb204ffae469c8df9",
+    "src/openhail/agents/agent_t4.py": "f4f219b14b10847c4ae251caa032869789f88fea5e829ddc2afb4b95a8057531",
+    "src/openhail/agents/nearest.py": "b9132e3991b7812fe532a1e615d14c3be4bfb29908ce8f17a449c7c5b1d55aeb",
+    "src/openhail/agents/periodic_ppo/__init__.py": "cf41eff313b22beb9209188dc6631cc60a91f7e3db8d53b0637146e41a6f3b9b",
+    "src/openhail/agents/periodic_ppo/agent.py": "e8a4b7507a48b24190881cfe1025dfbecf29b5e52d4858b44e0e375330e9d21a",
+    "src/openhail/agents/periodic_ppo/config.py": "eb666f34149633ae2f1b644ca76ba0329f0c2daf3675b93afc283b6570ad6578",
+    "src/openhail/agents/periodic_ppo/feature_extractor.py": "7f77a6a2239e1295ea67b2820084c781ab41dc7a87f1f72e533bb4c3b90a6b46",
+    "src/openhail/agents/periodic_ppo/model.py": "19857ee43f3bbe47d09046d520187d61b40482a8d861d7deebf5c3f0d1160580",
+    "src/openhail/agents/random_agent.py": "0a40ed4679d324d2fbc5f93c0a3e7525fc53217db2b4a3637e4fb35122f224e5",
+    "src/openhail/core/__init__.py": "f657976a781906aba6068fe20e7359c1aa7e5bfad5278357620e53c11d124f06",
+    "src/openhail/core/constants.py": "642aa9755c12479b3b04fec0004aa80ba23ac01aa79900d0be4ad098d7369919",
+    "src/openhail/core/env_components/__init__.py": "5ac71eccacd077e38e98c18b15f48492eb828a97aeeae62f9e37fab7e8ae676c",
+    "src/openhail/core/env_components/renderable_vehicle_manager.py": "3328f8a45fa8e711b9dae06d7adfbad55c98a1deba088e2bc24c6104bc720085",
+    "src/openhail/core/env_components/request_manager.py": "90c3bd44d1c5349a982f4690f19836ea4812b6bff93ece136620c968888f3617",
+    "src/openhail/core/env_components/summary_manager.py": "b556abe654c891bfda1a33450988dabbf467edea459e6e9ee6cce9250372af34",
+    "src/openhail/core/env_components/vehicle_manager.py": "c4aa70902e26f64daa69ea4aaca3ef57aacfae52023f7ab4e89746dc4fb00681",
+    "src/openhail/core/env_renderer.py": "292b75abca52127713aaa6d30662fe376e78909ed1fe9d69273e9b21e79f7cb4",
+    "src/openhail/core/openhail_env.py": "d4eace102075cf2a1b03349399a99e899c16476e7053170ebf0279ecb4e09194",
+    "src/openhail/core/openhail_instance.py": "bbabad9b2a730b9a979953f21a107409b077229bcceed0021e1c46aa113487f6",
+    "src/openhail/core/request/request_chicago.py": "d403a4657aa86dcd6eddd17a8d7fee16fba595ea4ad87fff9bddfdee597f6c1a",
+    "src/openhail/core/request/request_generator.py": "844b84bbb666fb4781c8589add7cb8586466ddea94a31d0fa66a86f211b4489b",
+    "src/openhail/core/request/request_nyc.py": "5650116d84be255485cc1f6f26c326060aede8150b43670a60b17fe534264a33",
+    "src/openhail/core/state_observer.py": "f4967422fffdb0295c60f3db23aac484fb1d77c809be75b04f157f11ec453017",
+    "src/openhail/utils/arg_utilities.py": "885eb1ed1d298335b7ec22589b3ea5f25a2d58d88835eb94b5ab1a61f5e8008e",
+    "src/openhail/utils/config_runner.py": "deee909673d9f98d515e95897742d1e54493f2c3e150719ed4a1b399b08e0a4f",
+    "src/openhail/utils/episode_summary.py": "a4fdbc8eb4045684b2fa73b4cf337692477fba584a1473ad6b0f2c5715efb656",
+    "src/openhail/utils/evaluation_utilities.py": "d9179782f4efe784d3cc94c124fa973e1b97e2391f4e1658892a8d9a6c40305f",
+    "src/openhail/utils/geometry.py": "4153c0096a3e1d70e4ea3392881b7ee93ebd49bf880c60119875262ef264ff00",
+    "src/openhail/utils/infrastructure_utilities.py": "e176dd7988a8cc2b48538309c6af06da897b3589c9855ed74464b698735e2542",
+    "src/openhail/utils/logging_utilities.py": "3378aeaae3eaeb4745b1cda01a1211ce822a7b4e0c8c47f55e38f851d970203f",
+    "src/openhail/utils/state_utilities.py": "ec8fb8d7f8797ae9f245b80533b014fbcc8ac316225fbb3ad9653bebd6f8b3a5",
+    "src/openhail/utils/triangulation.py": "3c2390b84b4dd2dc4561cb3bde00ce4ee35f467982b34752956f1c84d8adf051"
+  },
+  "runner_sha256": "43178fb613caf827ed1b603f2753b150fb97ada1f189734e6b29ad335da005e4",
+  "episodes_per_configuration": 5,
+  "tasks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "warmup": "one unmeasured rollout per controller and configuration, seed 100000/200000",
+  "measurement": "reset and model loading excluded; agent includes observe; no optimization; one process; cyclic controller order",
+  "configurations": [
+    {
+      "task": 1,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_2k",
+          "num_requests": 2000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F100",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 100
+        },
+        "infrastructure": {
+          "name": "S05_1_20",
+          "locations": 5,
+          "mode": "select",
+          "count": 20,
+          "selection": 1,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S05_1_20_s321_1455644_1/checkpoint_best.pt",
+      "checkpoint_sha256": "0a7adf75d2bff52745a9df672285be6a6c164b83100406d5aaa6fd24c49df2ca"
+    },
+    {
+      "task": 2,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_2k",
+          "num_requests": 2000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F100",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 100
+        },
+        "infrastructure": {
+          "name": "S10_2_10",
+          "locations": 10,
+          "mode": "select",
+          "count": 10,
+          "selection": 2,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S10_2_10_s321_1455644_2/checkpoint_best.pt",
+      "checkpoint_sha256": "9064dabd65faf645e5c53e6718d701461c0a30d656f067bb8738fcd4421b84fb"
+    },
+    {
+      "task": 3,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_2k",
+          "num_requests": 2000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F100",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 100
+        },
+        "infrastructure": {
+          "name": "S20_5_4",
+          "locations": 20,
+          "mode": "select",
+          "count": 4,
+          "selection": 5,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S20_5_4_s321_1455644_3/checkpoint_best.pt",
+      "checkpoint_sha256": "783746c323a0242532b9a1e58869a7a3fc0ebb6cad0b485ca7f313fcceac1bab"
+    },
+    {
+      "task": 4,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_2k",
+          "num_requests": 2000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F100",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 100
+        },
+        "infrastructure": {
+          "name": "S40_10_2",
+          "locations": 40,
+          "mode": "select",
+          "count": 2,
+          "selection": 10,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_100_S40_10_2_s321_1455644_4/checkpoint_best.pt",
+      "checkpoint_sha256": "67baba2756ecd14fba18ee09dbb4711dce4d9a33c86756882cac3039a807cee8"
+    },
+    {
+      "task": 5,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_10k",
+          "num_requests": 10000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F500",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 500
+        },
+        "infrastructure": {
+          "name": "S05_1_100",
+          "locations": 5,
+          "mode": "select",
+          "count": 100,
+          "selection": 1,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S05_1_100_s321_1455644_5/checkpoint_best.pt",
+      "checkpoint_sha256": "b4e905ebdb6cc1c21b29468f385e029cfbe9a414e01e996732993251d3237824"
+    },
+    {
+      "task": 6,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_10k",
+          "num_requests": 10000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F500",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 500
+        },
+        "infrastructure": {
+          "name": "S10_2_50",
+          "locations": 10,
+          "mode": "select",
+          "count": 50,
+          "selection": 2,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S10_2_50_s321_1455644_6/checkpoint_best.pt",
+      "checkpoint_sha256": "7505b4c564d8d78e5c62eee6f4194103319e35b3467c0a04f728aec1484ea786"
+    },
+    {
+      "task": 7,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_10k",
+          "num_requests": 10000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F500",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 500
+        },
+        "infrastructure": {
+          "name": "S20_5_20",
+          "locations": 20,
+          "mode": "select",
+          "count": 20,
+          "selection": 5,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S20_5_20_s321_1455644_7/checkpoint_best.pt",
+      "checkpoint_sha256": "68ca5926c473a59c65c02b3288ae4363dd019819d3548d7d376e7d8b377b2300"
+    },
+    {
+      "task": 8,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_10k",
+          "num_requests": 10000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F500",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 500
+        },
+        "infrastructure": {
+          "name": "S40_10_10",
+          "locations": 40,
+          "mode": "select",
+          "count": 10,
+          "selection": 10,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_500_S40_10_10_s321_1455644_8/checkpoint_best.pt",
+      "checkpoint_sha256": "6a7af7ac562ce9add581ffbd389a51c19cb63cfb3ccb6fc81bde4502970d831b"
+    },
+    {
+      "task": 9,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_20k",
+          "num_requests": 20000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F1000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 1000
+        },
+        "infrastructure": {
+          "name": "S05_1_200",
+          "locations": 5,
+          "mode": "select",
+          "count": 200,
+          "selection": 1,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S05_1_200_s321_1455644_9/checkpoint_best.pt",
+      "checkpoint_sha256": "c26f89715f94552e9e98b80c116aa02fe42beffa6501319834163e52bb95f831"
+    },
+    {
+      "task": 10,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_20k",
+          "num_requests": 20000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F1000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 1000
+        },
+        "infrastructure": {
+          "name": "S10_2_100",
+          "locations": 10,
+          "mode": "select",
+          "count": 100,
+          "selection": 2,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S10_2_100_s321_1455644_10/checkpoint_best.pt",
+      "checkpoint_sha256": "f09a3206344c7281014381de97325a0a7d92f09aaddb095485d6306a0989cdd1"
+    },
+    {
+      "task": 11,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_20k",
+          "num_requests": 20000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F1000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 1000
+        },
+        "infrastructure": {
+          "name": "S20_5_40",
+          "locations": 20,
+          "mode": "select",
+          "count": 40,
+          "selection": 5,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S20_5_40_s321_1455644_11/checkpoint_best.pt",
+      "checkpoint_sha256": "4491dbb175828e7299ed655301c4dd8c13d960c0011df44cbb9dc06228074a08"
+    },
+    {
+      "task": 12,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_20k",
+          "num_requests": 20000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F1000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 1000
+        },
+        "infrastructure": {
+          "name": "S40_10_20",
+          "locations": 40,
+          "mode": "select",
+          "count": 20,
+          "selection": 10,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_1000_S40_10_20_s321_1455644_12/checkpoint_best.pt",
+      "checkpoint_sha256": "78900ba0392ad92c63e4ec4bc2f907bdb6095bb8a197d443c5428298683a21ec"
+    },
+    {
+      "task": 13,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_40k",
+          "num_requests": 40000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F2000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 2000
+        },
+        "infrastructure": {
+          "name": "S05_1_400",
+          "locations": 5,
+          "mode": "select",
+          "count": 400,
+          "selection": 1,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S05_1_400_s321_1455644_13/checkpoint_best.pt",
+      "checkpoint_sha256": "5eba84edefa19bb03c25cbabecec04c5457de8fd62ef0d4f35709b446b0e0286"
+    },
+    {
+      "task": 14,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_40k",
+          "num_requests": 40000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F2000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 2000
+        },
+        "infrastructure": {
+          "name": "S10_2_200",
+          "locations": 10,
+          "mode": "select",
+          "count": 200,
+          "selection": 2,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S10_2_200_s321_1455644_14/checkpoint_best.pt",
+      "checkpoint_sha256": "232315e1976893427fbc46ef744934c90f49ec6331704e4309a5599ed903cbb4"
+    },
+    {
+      "task": 15,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_40k",
+          "num_requests": 40000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F2000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 2000
+        },
+        "infrastructure": {
+          "name": "S20_5_80",
+          "locations": 20,
+          "mode": "select",
+          "count": 80,
+          "selection": 5,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S20_5_80_s321_1455644_15/checkpoint_best.pt",
+      "checkpoint_sha256": "90dc0910336b2e376079621151d5cd2f44a9f9d47ab62cc3066204ba227c581f"
+    },
+    {
+      "task": 16,
+      "config": {
+        "simulation": {
+          "decision_clock": 900.0,
+          "max_outstanding_requests": 1,
+          "clear_requests": true,
+          "max_interdecision_time": -1,
+          "request_epoch": true,
+          "end_of_service_epoch": true,
+          "end_of_charge_epoch": false,
+          "strict_validation": false,
+          "track_vehicles": false,
+          "track_requests": false,
+          "track_epochs": false
+        },
+        "evaluation": {
+          "name": "S1",
+          "evalseed": 2,
+          "firsteval": 0,
+          "numeval": 1
+        },
+        "city": {
+          "name": "nyc",
+          "geojson_file": "./data/.raw/nyc_taxizone_geodata_utkm.geojson",
+          "parking_file": "./data/.raw/nyc_parking.json",
+          "request_file": "./data/.raw/nyc_sample_05.csv",
+          "max_wait": 400,
+          "charge_cost": 0.0,
+          "travel_cost": 0.53,
+          "fixed_reward": 10.75,
+          "variable_reward_distance": 4.02
+        },
+        "horizon": {
+          "name": "horizon_1_40k",
+          "num_requests": 40000,
+          "start_time": 0,
+          "max_time": 86400
+        },
+        "fleet": {
+          "name": "F2000",
+          "Q": 20,
+          "charge_rate": 0.005,
+          "discharge_rate": 0.3,
+          "speed": 0.0036,
+          "num_vehicles": 2000
+        },
+        "infrastructure": {
+          "name": "S40_10_40",
+          "locations": 40,
+          "mode": "select",
+          "count": 40,
+          "selection": 10,
+          "repo_count": 100,
+          "seed": 1
+        }
+      },
+      "checkpoint": "out/periodic_ppo_fleet_location_scaling/periodic_ppo_nyc_500ep_fleet_2000_S40_10_40_s321_1455644_16/checkpoint_best.pt",
+      "checkpoint_sha256": "2c88be0862c9bb954cfda35d3444431ff8d90bcdd649531f42c39e74cd09433c"
+    }
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "flexiblas",
+      "num_threads": 1,
+      "prefix": "libflexiblas",
+      "filepath": "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/flexiblascore/3.3.1/lib64/libflexiblas.so.3.3",
+      "version": "3.3.1",
+      "available_backends": [
+        "NETLIB",
+        "BLIS",
+        "AOCL",
+        "IMKL",
+        "OPENBLAS"
+      ],
+      "loaded_backends": [
+        "BLIS"
+      ],
+      "current_backend": "BLIS"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "filepath": "/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/lib/gcc/x86_64-pc-linux-gnu/14/libgomp.so.1.0.0",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "blis",
+      "num_threads": 1,
+      "prefix": "libblis",
+      "filepath": "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcccore/bliscore/0.9.0/lib/libblis.so.4.0.0",
+      "version": "0.9.0",
+      "threading_layer": "openmp",
+      "architecture": "zen2"
+    }
+  ],
+  "finished": "2026-09-09T16:59:25.382934+00:00"
+}

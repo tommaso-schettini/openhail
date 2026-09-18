@@ -1,0 +1,75 @@
+[project]
+name = "openhail"
+version = "0.1.0"
+authors = [
+    { name = "Tommaso Schettini", email = "tommaso.schettini@concordia.ca" },
+]
+description = "A ride-hailing simulator as a Gymnasium environment for reinforcement learning research."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+# Core, top-level dependencies needed for the simulation to run
+dependencies = [
+    "gymnasium",
+    "pygame",
+    "numpy",
+    "pandas",
+    "geopandas",
+    "scipy",
+    "shapely",
+    "networkx",
+    "scikit-learn", 
+    "matplotlib",
+    "folium",
+    "imageio",
+]
+
+[project.urls]
+"Repository" = "https://github.com/tommaso-schettini/openhail"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "pyright>=1.1.413"
+]
+ppo = [
+    "torch"
+]
+[tool.ruff]
+# Assume Python 3.10
+target-version = "py310"
+
+[tool.ruff.lint]
+# Enable Pyflakes `E` and `F` codes by default, and `I` for isort.
+select = ["E", "F", "I"]
+
+[tool.ruff.format]
+# Black-compatible formatter.
+quote-style = "double"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers --strict-config"
+markers = [
+    "integration: end-to-end checks using the checked-in NYC sample and configurations",
+    "render: off-screen rendering checks using SDL's dummy driver",
+    "ppo: checks requiring the optional torch dependency",
+]
+filterwarnings = [
+    "ignore::DeprecationWarning:pyogrio",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/openhail"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["src/openhail", "pyproject.toml", "README.md", "LICENSE"]

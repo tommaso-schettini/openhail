@@ -1,0 +1,17 @@
+city	simulation	horizon	fleet	infrastructure	python_module	num_episodes	seed	learning_rate	decision_clock	update_epochs	minibatch_decisions	eval_interval	eval_episodes	eval_first_seed	eval_first_policy_seed	greedy_eval	save_interval	device	output_dir
+nyc	debug_config_fast	horizon_1_2k	fleet_100	S05_1_20	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_2k	fleet_100	S10_2_10	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_2k	fleet_100	S20_5_4	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_2k	fleet_100	S40_10_2	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_10k	fleet_500	S05_1_100	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_10k	fleet_500	S10_2_50	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_10k	fleet_500	S20_5_20	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_10k	fleet_500	S40_10_10	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_20k	fleet_1000	S05_1_200	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_20k	fleet_1000	S10_2_100	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_20k	fleet_1000	S20_5_40	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_20k	fleet_1000	S40_10_20	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_40k	fleet_2000	S05_1_400	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_40k	fleet_2000	S10_2_200	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_40k	fleet_2000	S20_5_80	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling
+nyc	debug_config_fast	horizon_1_40k	fleet_2000	S40_10_40	python/3.13	500	321	0.0003	900	4	32	25	5	100000	200000	0	0	cpu	out/periodic_ppo_fleet_location_scaling

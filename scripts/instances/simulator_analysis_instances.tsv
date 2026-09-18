@@ -1,0 +1,10 @@
+city	simulation	horizon	fleet	infrastructure	num_episodes	first_seed	decision_clock
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_1_1	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_1_2	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_1_4	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_1_6	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_2_1	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_2_2	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_2_3	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_2_4	20	100000	900
+nyc	debug_config_fast	horizon_1_2k	fleet_20	S05_3_2	20	100000	900

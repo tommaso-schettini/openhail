@@ -1,0 +1,6 @@
+{
+    "name": "horizon_1_10k",
+    "num_requests": 10000,
+    "start_time": 0,
+    "max_time": 86400
+}

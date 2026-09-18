@@ -1,0 +1,180 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+public-review-work/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.prof
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Flask stuff:
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+.conda/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# pytest
+.pytest_cache/
+tests/reports/
+tests/.tmp/
+
+# gurobi-made files
+*.lp
+*.sol
+*.ilp
+
+# vscode
+.vscode/*
+
+# temp instance files for the perfect info problem
+pi_instance*.json
+
+# logging
+logging/
+logrefs/
+
+# cluster execution scripts
+apex*.sh
+jobrunner*.sh
+!jobrunnerRpaevMaster.sh
+!jobrunnerRpaevMaster-Eval.sh
+
+# cluster output
+slurmOut/
+*.out
+
+# old logs
+oldlogs/
+
+# solution files
+solutions/
+
+# Big ol data file
+data/nyc-2018-taxitrips-bdays-ylwGrnFhv.hdf5
+
+# Rendered images
+temp*.png
+*envrender.gif
+
+# LaTeX build artifacts
+paper/aux_files/
+paper/pdf/
+tmp/
+
+# Local manuscript editing workflow artifacts
+paper/editing_state/backups/
+paper/editing_state/index.md
+paper/editing_state/last_step.diff
+
+# Temp job submission files
+*deleteme.sh
+
+# profiling results
+*.cprof
+
+# summaries from log files
+obj_log_summary_*
+
+out/
+err/
+plots/
+logs/
+
+*.profile
+*.prof
+
+# old code
+old_code_archive*
+code_archive*
+commands-scratchpad*
+
+*_local.py
