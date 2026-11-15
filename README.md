@@ -93,6 +93,48 @@ result = runner.run_single_config(
 print(f"Rendered result: {result.average_reward():.2f}")
 ```
 
+### Example 4: Interactive Playback
+
+`--render` draws the run but offers no way to control it while it is in
+progress. For that, `scripts/run_interactive.py` opens the same rendered view
+with playback controls:
+
+```bash
+python scripts/run_interactive.py
+python scripts/run_interactive.py --fleet fleet_100 --agent random
+```
+
+| Key | Action |
+| --- | --- |
+| `space` | pause / resume |
+| `right` | step one decision epoch |
+| `shift+right` | step ten decision epochs |
+| `up` | slower (more real minutes per simulated day) |
+| `down` | faster (fewer real minutes per simulated day) |
+| `h` | toggle the key binding overlay |
+| `q`, `esc` | quit |
+
+The same controls are available programmatically through `SimulationSession`,
+which owns the step loop so a caller can pause, single-step and pace a run while
+reusing the environment, agent and renderer that the evaluator builds. A session
+built from a given configuration and seed produces the same trajectory as the
+headless evaluator:
+
+```python
+from openhail.gui import PlaybackState, SimulationSession
+
+session = SimulationSession.from_configuration(
+    simulation="debug_config_fast",
+    data_root=".",
+    playback=PlaybackState(),
+)
+session.start()
+while not session.finished:
+    session.advance()
+    session.draw()
+print(f"Interactive result: {session.total_reward:.2f}")
+```
+
 ### Advanced Usage: Direct Gymnasium Interface
 
 For advanced users who want to work directly with the Gymnasium environment:
@@ -299,7 +341,8 @@ The environment itself operates like a normal Gymnasium environment, but it can
 also be wrapped in the evaluator class for configuration-driven experiments.
 `scripts/run_simulation.py` provides the smallest headless example, while
 `scripts/run_simulation_examples.py` contains opt-in rendering, GIF, and
-baseline-comparison examples.
+baseline-comparison examples. `scripts/run_interactive.py` renders a run with
+pause, single-step and speed controls (see Example 4 above).
 
 The repository includes `nearest`, `random`, and `periodic_ppo` agents.
 The `random` baseline uses closest feasible request assignment and samples a
@@ -316,10 +359,13 @@ Agents are normally instantiated by the `agent_initializer` class, but that is o
 ### Tests
 
 The test suite covers request generation, the Gymnasium environment contract,
-infrastructure generation, baseline agents, training metrics, and PPO
-checkpointing. Run `python -m pytest` from the repository root after installing
-`pip install -e ".[dev,ppo]"`. All tests are headless and rendering checks use a
-bounded number of transitions. Without the PPO extra, its tests are skipped.
+infrastructure generation, baseline agents, training metrics, PPO
+checkpointing, and the interactive playback controls. Run `python -m pytest`
+from the repository root after installing `pip install -e ".[dev,ppo]"`. All
+tests are headless and rendering checks use a
+bounded number of transitions, including the interactive control tests, which
+exercise the key mapping against a stand-in session and never open a window.
+Without the PPO extra, its tests are skipped.
 See [docs/testing.md](docs/testing.md) for test categories and release checks.
 
 Before starting a learned-policy run, use the multi-configuration simulator

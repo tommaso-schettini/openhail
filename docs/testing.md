@@ -17,7 +17,8 @@ PyTorch; PPO tests will be skipped.
 
 The suite covers the Gymnasium interface, request generation, charging queues,
 energy accounting, action feasibility, configuration loading, baseline agents,
-PPO updates and checkpoints, rendering, and package imports.
+PPO updates and checkpoints, rendering, interactive playback controls, and
+package imports.
 
 Integration tests use the bundled NYC data and configurations. Tests run
 headlessly and do not require trained checkpoints or downloaded experiments.
