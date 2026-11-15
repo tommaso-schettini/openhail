@@ -47,7 +47,7 @@ class request_nyc(request_generator):
         self.requests_df = self.requests_df.dropna(
             subset=["doy", "episode_time", "dozone", "puzone"]
         )
-        self.requests_df.reset_index(drop=True, inplace=True)
+        self.requests_df = self.requests_df.reset_index(drop=True)
         self.doys = self.requests_df["doy"].unique()
 
     def _generate_doy(

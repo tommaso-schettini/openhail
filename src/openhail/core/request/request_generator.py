@@ -121,7 +121,7 @@ class request_generator:
 
         if full_requests is None:
             raise RuntimeError("Request generation produced no day of requests.")
-        full_requests.reset_index(inplace=True)
+        full_requests = full_requests.reset_index(drop=True)
 
         if generate_dummy:
             # request is a dataframe
