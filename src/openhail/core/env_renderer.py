@@ -46,8 +46,8 @@ class RidehailRenderer:
         self.repo_color = render_config.get("repo_color", LIGHT_RED)
 
         self.full_ev_color = render_config.get("ev_color", DARK_YELLOW)
-        self.empty_ev_color = render_config.get("ev_color", DARK_RED)
-        self.line_color = render_config.get("ev_color", DARK_GREEN)
+        self.empty_ev_color = render_config.get("empty_ev_color", DARK_RED)
+        self.line_color = render_config.get("line_color", DARK_GREEN)
 
         self.request_color = render_config.get("request_color", DARK_RED)
         self.day_colors = [

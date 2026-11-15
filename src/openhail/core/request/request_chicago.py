@@ -121,6 +121,6 @@ class request_chicago(request_generator):
         request_df["time"] = request_df["time"] - sampled_timestamp
         request_df = request_df.loc[request_df["time"] >= start_time]
         request_df = request_df.loc[request_df["time"] < end_time]
-        request_df.reset_index(inplace=True, drop=True)
+        request_df = request_df.reset_index(drop=True)
 
         return request_df
