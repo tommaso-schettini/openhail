@@ -5,6 +5,7 @@ Run scripts from the repository root after installing OpenHail.
 | Script | Purpose |
 | --- | --- |
 | `run_simulation.py` | Run a simulation; add `--render` for visualization. |
+| `run_interactive.py` | Rendered run with pause, single-step and speed controls. |
 | `run_simulation_examples.py` | Rendering, GIF, and baseline-comparison examples. |
 | `run_simulation_manual_configuration.py` | Assemble an instance, agent, and evaluator directly. |
 | `evaluate_pretrained.py` | Evaluate a bundled PPO checkpoint. |
